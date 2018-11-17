@@ -1,0 +1,861 @@
+{
+  "meta" : {
+    "view" : {
+      "id" : "addd-ji6a",
+      "name" : "OEM_HurricaneEvacuationCenters_2015",
+      "averageRating" : 0,
+      "createdAt" : 1443734781,
+      "displayType" : "geoRows",
+      "downloadCount" : 1070,
+      "hideFromCatalog" : false,
+      "hideFromDataJson" : false,
+      "indexUpdatedAt" : 1536595721,
+      "newBackend" : true,
+      "numberOfComments" : 0,
+      "oid" : 26988128,
+      "provenance" : "official",
+      "publicationAppendEnabled" : false,
+      "publicationDate" : 1507752757,
+      "publicationGroup" : 6259161,
+      "publicationStage" : "published",
+      "rowsUpdatedAt" : 1507752756,
+      "rowsUpdatedBy" : "d5dp-fses",
+      "tableId" : 14527911,
+      "totalTimesRated" : 0,
+      "viewCount" : 21,
+      "viewLastModified" : 1536595692,
+      "viewType" : "tabular",
+      "childViews" : [ "" ],
+      "columns" : [ {
+        "id" : -1,
+        "name" : "sid",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":sid",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "id",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":id",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "position",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":position",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "created_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":created_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_at",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_at",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "updated_meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":updated_meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : -1,
+        "name" : "meta",
+        "dataTypeName" : "meta_data",
+        "fieldName" : ":meta",
+        "position" : 0,
+        "renderTypeName" : "meta_data",
+        "format" : { },
+        "flags" : [ "hidden" ]
+      }, {
+        "id" : 324396949,
+        "name" : "ADDRESS",
+        "dataTypeName" : "text",
+        "fieldName" : "address",
+        "position" : 1,
+        "renderTypeName" : "text",
+        "tableColumnId" : 54677874,
+        "cachedContents" : {
+          "largest" : "921 E 228 Street",
+          "null" : "0",
+          "top" : [ {
+            "item" : "244 E 163 Street",
+            "count" : "1"
+          }, {
+            "item" : "800 Gates Avenue",
+            "count" : "1"
+          }, {
+            "item" : "425 W 123 Street",
+            "count" : "1"
+          }, {
+            "item" : "921 E 228 Street",
+            "count" : "1"
+          }, {
+            "item" : "100 Essex Drive",
+            "count" : "1"
+          }, {
+            "item" : "72-24 Grand Avenue",
+            "count" : "1"
+          }, {
+            "item" : "290 St Marks Place",
+            "count" : "1"
+          }, {
+            "item" : "154 W 93 Street",
+            "count" : "1"
+          }, {
+            "item" : "29 Ft Greene Place",
+            "count" : "1"
+          }, {
+            "item" : "100 Noll Street",
+            "count" : "1"
+          }, {
+            "item" : "92-07 175 Street",
+            "count" : "1"
+          }, {
+            "item" : "74-20 Commonwealth Blvd",
+            "count" : "1"
+          }, {
+            "item" : "45-30 36 Street",
+            "count" : "1"
+          }, {
+            "item" : "730 Bryant Avenue",
+            "count" : "1"
+          }, {
+            "item" : "142-30 Barclay Avenue",
+            "count" : "1"
+          }, {
+            "item" : "2021 Bergen Street",
+            "count" : "1"
+          }, {
+            "item" : "549 Audobon Avenue",
+            "count" : "1"
+          }, {
+            "item" : "1300 Greene Avenue",
+            "count" : "1"
+          }, {
+            "item" : "122 Amsterdam Avenue",
+            "count" : "1"
+          }, {
+            "item" : "61-15 Oceania Street",
+            "count" : "1"
+          } ],
+          "not_null" : "60",
+          "smallest" : "100 Essex Drive",
+          "cardinality" : "60"
+        },
+        "format" : { }
+      }, {
+        "id" : 324396950,
+        "name" : "CITY",
+        "dataTypeName" : "text",
+        "fieldName" : "city",
+        "position" : 2,
+        "renderTypeName" : "text",
+        "tableColumnId" : 54677875,
+        "cachedContents" : {
+          "largest" : "Staten Island",
+          "null" : "0",
+          "top" : [ {
+            "item" : "Brooklyn",
+            "count" : "17"
+          }, {
+            "item" : "Bronx",
+            "count" : "12"
+          }, {
+            "item" : "New York",
+            "count" : "10"
+          }, {
+            "item" : "Staten Island",
+            "count" : "5"
+          }, {
+            "item" : "Flushing",
+            "count" : "3"
+          }, {
+            "item" : "Ridgewood",
+            "count" : "2"
+          }, {
+            "item" : "Long Island City",
+            "count" : "2"
+          }, {
+            "item" : "Jamaica",
+            "count" : "2"
+          }, {
+            "item" : "South Ozone Park",
+            "count" : "1"
+          }, {
+            "item" : "Bellerose",
+            "count" : "1"
+          }, {
+            "item" : "Bayside",
+            "count" : "1"
+          }, {
+            "item" : "Jackson Heights",
+            "count" : "1"
+          }, {
+            "item" : "Forest Hills",
+            "count" : "1"
+          }, {
+            "item" : "Maspeth",
+            "count" : "1"
+          }, {
+            "item" : "Corona",
+            "count" : "1"
+          } ],
+          "not_null" : "60",
+          "smallest" : "Bayside",
+          "cardinality" : "15"
+        },
+        "format" : { }
+      }, {
+        "id" : 324396951,
+        "name" : "EC_NAME",
+        "dataTypeName" : "text",
+        "fieldName" : "ec_name",
+        "position" : 3,
+        "renderTypeName" : "text",
+        "tableColumnId" : 54677876,
+        "cachedContents" : {
+          "largest" : "Walton HS",
+          "null" : "0",
+          "top" : [ {
+            "item" : "IS 391",
+            "count" : "2"
+          }, {
+            "item" : "Clinton School",
+            "count" : "1"
+          }, {
+            "item" : "IS 145",
+            "count" : "1"
+          }, {
+            "item" : "PS 58",
+            "count" : "1"
+          }, {
+            "item" : "PS 102",
+            "count" : "1"
+          }, {
+            "item" : "Adams Street Educational Campus",
+            "count" : "1"
+          }, {
+            "item" : "IS 324",
+            "count" : "1"
+          }, {
+            "item" : "IS 25",
+            "count" : "1"
+          }, {
+            "item" : "PS 239",
+            "count" : "1"
+          }, {
+            "item" : "Walton HS",
+            "count" : "1"
+          }, {
+            "item" : "Midtown East Campus (PS 59)",
+            "count" : "1"
+          }, {
+            "item" : "PS 249",
+            "count" : "1"
+          }, {
+            "item" : "Townsend Harris HS",
+            "count" : "1"
+          }, {
+            "item" : "Aviation HS",
+            "count" : "1"
+          }, {
+            "item" : "IS 51",
+            "count" : "1"
+          }, {
+            "item" : "MS - HS 141",
+            "count" : "1"
+          }, {
+            "item" : "PS 211",
+            "count" : "1"
+          }, {
+            "item" : "Hillcrest HS",
+            "count" : "1"
+          }, {
+            "item" : "PS - IS 268",
+            "count" : "1"
+          }, {
+            "item" : "IS 227",
+            "count" : "1"
+          } ],
+          "not_null" : "60",
+          "smallest" : "Adams Street Educational Campus",
+          "cardinality" : "59"
+        },
+        "format" : { }
+      }, {
+        "id" : 324396952,
+        "name" : "the_geom",
+        "dataTypeName" : "point",
+        "fieldName" : "the_geom",
+        "position" : 4,
+        "renderTypeName" : "point",
+        "tableColumnId" : 54677877,
+        "cachedContents" : {
+          "null" : "0",
+          "top" : [ {
+            "item" : {
+              "coordinates" : [ -74.15897931892695, 40.581388990509105 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -74.1448917169114, 40.623017156185085 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -74.10434506993518, 40.60899601014512 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -74.07901917090253, 40.64282884762186 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -74.02453258829522, 40.63345140169942 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -74.00453928492661, 40.65280553248585 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.99578336323263, 40.62178403159182 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.99360201070182, 40.71623837083559 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.99235077956067, 40.736110371584786 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.98834759450574, 40.69463226130131 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.98563038662456, 40.774899959763246 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.97869546474965, 40.66930777410636 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.97720245197735, 40.615246661358086 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.97644081210666, 40.688955817188834 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.97097165235431, 40.791461599835635 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.96648921670807, 40.649708582993064 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.9663563303682, 40.75929963022644 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.96139358097575, 40.6688589933076 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -73.95609685370634, 40.81078944886271 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          }, {
+            "item" : {
+              "coordinates" : [ -74.21396005256327, 40.54198980345471 ],
+              "type" : "Point"
+            },
+            "count" : "1"
+          } ],
+          "not_null" : "60",
+          "cardinality" : "60"
+        },
+        "format" : { }
+      }, {
+        "id" : 324396953,
+        "name" : "STATE",
+        "dataTypeName" : "text",
+        "fieldName" : "state",
+        "position" : 5,
+        "renderTypeName" : "text",
+        "tableColumnId" : 54677878,
+        "cachedContents" : {
+          "largest" : "NY",
+          "null" : "0",
+          "top" : [ {
+            "item" : "NY",
+            "count" : "60"
+          } ],
+          "not_null" : "60",
+          "smallest" : "NY",
+          "cardinality" : "1"
+        },
+        "format" : { }
+      }, {
+        "id" : 324396954,
+        "name" : "ZIP_CODE",
+        "dataTypeName" : "number",
+        "fieldName" : "zip_code",
+        "position" : 6,
+        "renderTypeName" : "number",
+        "tableColumnId" : 54677879,
+        "cachedContents" : {
+          "largest" : "11433",
+          "null" : "0",
+          "top" : [ {
+            "item" : "11355",
+            "count" : "2"
+          }, {
+            "item" : "10023",
+            "count" : "2"
+          }, {
+            "item" : "10301",
+            "count" : "2"
+          }, {
+            "item" : "11101",
+            "count" : "2"
+          }, {
+            "item" : "11204",
+            "count" : "2"
+          }, {
+            "item" : "11385",
+            "count" : "2"
+          }, {
+            "item" : "11226",
+            "count" : "2"
+          }, {
+            "item" : "10457",
+            "count" : "2"
+          }, {
+            "item" : "10456",
+            "count" : "2"
+          }, {
+            "item" : "10463",
+            "count" : "1"
+          }, {
+            "item" : "10466",
+            "count" : "1"
+          }, {
+            "item" : "11372",
+            "count" : "1"
+          }, {
+            "item" : "10027",
+            "count" : "1"
+          }, {
+            "item" : "11215",
+            "count" : "1"
+          }, {
+            "item" : "10040",
+            "count" : "1"
+          }, {
+            "item" : "10460",
+            "count" : "1"
+          }, {
+            "item" : "10314",
+            "count" : "1"
+          }, {
+            "item" : "10025",
+            "count" : "1"
+          }, {
+            "item" : "11378",
+            "count" : "1"
+          }, {
+            "item" : "11375",
+            "count" : "1"
+          } ],
+          "not_null" : "60",
+          "smallest" : "10002",
+          "cardinality" : "51"
+        },
+        "format" : { }
+      }, {
+        "id" : 324396955,
+        "name" : "BOROCODE",
+        "dataTypeName" : "number",
+        "fieldName" : "borocode",
+        "position" : 7,
+        "renderTypeName" : "number",
+        "tableColumnId" : 54677880,
+        "cachedContents" : {
+          "largest" : "5",
+          "null" : "0",
+          "top" : [ {
+            "item" : "3",
+            "count" : "17"
+          }, {
+            "item" : "4",
+            "count" : "16"
+          }, {
+            "item" : "2",
+            "count" : "12"
+          }, {
+            "item" : "1",
+            "count" : "10"
+          }, {
+            "item" : "5",
+            "count" : "5"
+          } ],
+          "not_null" : "60",
+          "smallest" : "1",
+          "cardinality" : "5"
+        },
+        "format" : { }
+      }, {
+        "id" : 324396956,
+        "name" : "ACCESSIBLE",
+        "dataTypeName" : "text",
+        "fieldName" : "accessible",
+        "position" : 8,
+        "renderTypeName" : "text",
+        "tableColumnId" : 54677881,
+        "cachedContents" : {
+          "largest" : "Y",
+          "null" : "0",
+          "top" : [ {
+            "item" : "N",
+            "count" : "42"
+          }, {
+            "item" : "Y",
+            "count" : "18"
+          } ],
+          "not_null" : "60",
+          "smallest" : "N",
+          "cardinality" : "2"
+        },
+        "format" : { }
+      }, {
+        "id" : 324396957,
+        "name" : "BIN",
+        "dataTypeName" : "number",
+        "fieldName" : "bin",
+        "position" : 9,
+        "renderTypeName" : "number",
+        "tableColumnId" : 54677882,
+        "cachedContents" : {
+          "largest" : "5149609",
+          "null" : "0",
+          "top" : [ {
+            "item" : "3044657",
+            "count" : "1"
+          }, {
+            "item" : "3075413",
+            "count" : "1"
+          }, {
+            "item" : "3378201",
+            "count" : "1"
+          }, {
+            "item" : "1032522",
+            "count" : "1"
+          }, {
+            "item" : "4529899",
+            "count" : "1"
+          }, {
+            "item" : "3081032",
+            "count" : "1"
+          }, {
+            "item" : "2097130",
+            "count" : "1"
+          }, {
+            "item" : "4114657",
+            "count" : "1"
+          }, {
+            "item" : "2006566",
+            "count" : "1"
+          }, {
+            "item" : "3116438",
+            "count" : "1"
+          }, {
+            "item" : "5017080",
+            "count" : "1"
+          }, {
+            "item" : "4442764",
+            "count" : "1"
+          }, {
+            "item" : "4250416",
+            "count" : "1"
+          }, {
+            "item" : "5000314",
+            "count" : "1"
+          }, {
+            "item" : "3146550",
+            "count" : "1"
+          }, {
+            "item" : "5128148",
+            "count" : "1"
+          }, {
+            "item" : "1038593",
+            "count" : "1"
+          }, {
+            "item" : "3331741",
+            "count" : "1"
+          }, {
+            "item" : "4217573",
+            "count" : "1"
+          }, {
+            "item" : "3090998",
+            "count" : "1"
+          } ],
+          "not_null" : "60",
+          "smallest" : "1016067",
+          "cardinality" : "60"
+        },
+        "format" : { }
+      }, {
+        "id" : 324396958,
+        "name" : "BBL",
+        "dataTypeName" : "number",
+        "fieldName" : "bbl",
+        "position" : 10,
+        "renderTypeName" : "number",
+        "tableColumnId" : 54677883,
+        "cachedContents" : {
+          "largest" : "5070440001",
+          "null" : "0",
+          "top" : [ {
+            "item" : "2059180376",
+            "count" : "1"
+          }, {
+            "item" : "4012520001",
+            "count" : "1"
+          }, {
+            "item" : "5014780500",
+            "count" : "1"
+          }, {
+            "item" : "1019390011",
+            "count" : "1"
+          }, {
+            "item" : "3031530011",
+            "count" : "1"
+          }, {
+            "item" : "2027630279",
+            "count" : "1"
+          }, {
+            "item" : "3010820001",
+            "count" : "1"
+          }, {
+            "item" : "3048060001",
+            "count" : "1"
+          }, {
+            "item" : "3014480001",
+            "count" : "1"
+          }, {
+            "item" : "4016080058",
+            "count" : "1"
+          }, {
+            "item" : "4028020001",
+            "count" : "1"
+          }, {
+            "item" : "1021120058",
+            "count" : "1"
+          }, {
+            "item" : "5006830302",
+            "count" : "1"
+          }, {
+            "item" : "2029510032",
+            "count" : "1"
+          }, {
+            "item" : "5070440001",
+            "count" : "1"
+          }, {
+            "item" : "1020840129",
+            "count" : "1"
+          }, {
+            "item" : "4116230001",
+            "count" : "1"
+          }, {
+            "item" : "1012230005",
+            "count" : "1"
+          }, {
+            "item" : "2024800008",
+            "count" : "1"
+          }, {
+            "item" : "3050750001",
+            "count" : "1"
+          } ],
+          "not_null" : "60",
+          "smallest" : "1003010003",
+          "cardinality" : "60"
+        },
+        "format" : { }
+      } ],
+      "grants" : [ {
+        "inherited" : false,
+        "type" : "viewer",
+        "flags" : [ "public" ]
+      } ],
+      "metadata" : {
+        "geo" : {
+          "parentUid" : "ayer-cga7",
+          "isNbe" : true
+        },
+        "custom_fields" : {
+          "Update" : {
+            "Date Made Public" : "6/18/2013"
+          }
+        }
+      },
+      "owner" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName" : "NYC OpenData",
+        "type" : "interactive",
+        "flags" : [ "mayBeStoriesCoOwner" ]
+      },
+      "query" : { },
+      "rights" : [ "read" ],
+      "tableAuthor" : {
+        "id" : "5fuc-pqz2",
+        "displayName" : "NYC OpenData",
+        "profileImageUrlLarge" : "/api/users/5fuc-pqz2/profile_images/LARGE",
+        "profileImageUrlMedium" : "/api/users/5fuc-pqz2/profile_images/THUMB",
+        "profileImageUrlSmall" : "/api/users/5fuc-pqz2/profile_images/TINY",
+        "screenName" : "NYC OpenData",
+        "type" : "interactive",
+        "flags" : [ "mayBeStoriesCoOwner" ]
+      },
+      "flags" : [ "default", "restorable", "restorePossibleForType" ]
+    }
+  },
+  "data" : [ [ "row-3k9a_vep3.xa2b", "00000000-0000-0000-7719-C7BF0B016C31", 0, 1507752756, null, 1507752756, null, "{ }", "18 Marlborough Road", "Brooklyn", "PS 249", "POINT (-73.96648921670807 40.649708582993064)", "NY", "11226", "3", "N", "3116438", "3050750001" ]
+, [ "row-nwkk-azv8-dyt3", "00000000-0000-0000-55C3-8963211F90E4", 0, 1507752756, null, 1507752756, null, "{ }", "1827 Archer Street", "Bronx", "PS 102", "POINT (-73.86622748089125 40.838205858215275)", "NY", "10460", "2", "N", "2028640", "2039210030" ]
+, [ "row-qk6i_b38c_5yad", "00000000-0000-0000-9277-18BDF3C1BA4E", 0, 1507752756, null, 1507752756, null, "{ }", "901 Classon Avenue", "Brooklyn", "Clara Barton HS", "POINT (-73.96139358097575 40.6688589933076)", "NY", "11225", "3", "N", "3029702", "3011880001" ]
+, [ "row-zvdv.fa5t.qd5n", "00000000-0000-0000-AC6F-56BEA1B650DE", 0, 1507752756, null, 1507752756, null, "{ }", "549 Audobon Avenue", "New York", "George Washington Educational Campus", "POINT (-73.92619138163855 40.85559869189675)", "NY", "10040", "1", "N", "1076751", "1021600018" ]
+, [ "row-24rk-vwzu.25pa", "00000000-0000-0000-01EA-86B1410CB474", 0, 1507752756, null, 1507752756, null, "{ }", "29 Ft Greene Place", "Brooklyn", "Brooklyn Tech HS", "POINT (-73.97644081210666 40.688955817188834)", "NY", "11217", "3", "Y", "3058752", "3020980013" ]
+, [ "row-qwry.qqxm~q9ix", "00000000-0000-0000-9EB7-C198A4CDD6EB", 0, 1507752756, null, 1507752756, null, "{ }", "660 W 237 Street", "Bronx", "MS - HS 141", "POINT (-73.91417582805788 40.88805858303743)", "NY", "10463", "2", "N", "2085870", "2059180376" ]
+, [ "row-a9bz~pqmz_nf6v", "00000000-0000-0000-05DB-91BC7D51A7CD", 0, 1507752756, null, 1507752756, null, "{ }", "111 Bristol Street", "Brooklyn", "PS 327", "POINT (-73.9117213739499 40.66795481413876)", "NY", "11212", "3", "N", "3081032", "3035200008" ]
+, [ "row-xtfu~zy8x~ezgi", "00000000-0000-0000-8EDE-7DEB5A840F87", 0, 1507752756, null, 1507752756, null, "{ }", "154 W 93 Street", "New York", "IS 118", "POINT (-73.97097165235431 40.791461599835635)", "NY", "10025", "1", "Y", "1032522", "1012230005" ]
+, [ "row-et4c-aqge-7rb9", "00000000-0000-0000-1CBC-434774437FA3", 0, 1507752756, null, 1507752756, null, "{ }", "427 38 Street", "Brooklyn", "PS 24", "POINT (-74.00453928492661 40.65280553248585)", "NY", "11232", "3", "Y", "3346119", "3007010001" ]
+, [ "row-v65v-c22m.e8f5", "00000000-0000-0000-4CB4-73363A4A06B9", 0, 1507752756, null, 1507752756, null, "{ }", "237 7th Avenue", "Brooklyn", "John Jay Educational Campus", "POINT (-73.97869546474965 40.66930777410636)", "NY", "11215", "3", "N", "3025510", "3010820001" ]
+, [ "row-r9dp_cjb9.n9tj", "00000000-0000-0000-73F1-2A827AFC1385", 0, 1507752756, null, 1507752756, null, "{ }", "730 Bryant Avenue", "Bronx", "IS 201", "POINT (-73.8853081324496 40.81586895931827)", "NY", "10474", "2", "N", "2006566", "2027630279" ]
+, [ "row-6ump.c458.ppaa", "00000000-0000-0000-6215-39D27252609B", 0, 1507752756, null, 1507752756, null, "{ }", "21 Jumel Place", "New York", "IS 90", "POINT (-73.9357073749906 40.83935802569437)", "NY", "10023", "1", "Y", "1076741", "1021120058" ]
+, [ "row-73um_2ddh_dxsm", "00000000-0000-0000-D0DA-43E10940A2DD", 0, 1507752756, null, 1507752756, null, "{ }", "1919 Prospect Avenue", "Bronx", "PS 211", "POINT (-73.89046989887038 40.84375984151174)", "NY", "10457", "2", "N", "2094582", "2029510032" ]
+, [ "row-856h-qdua-dg7u", "00000000-0000-0000-29CD-0CFFC695CC3C", 0, 1507752756, null, 1507752756, null, "{ }", "1300 Greene Avenue", "Brooklyn", "IS 383", "POINT (-73.91928775501131 40.697693632530274)", "NY", "11237", "3", "N", "3075413", "3032980001" ]
+, [ "row-6gjv-k45m~fmxj", "00000000-0000-0000-E671-EC4A41A9F912", 0, 1507752756, null, 1507752756, null, "{ }", "425 W 123 Street", "New York", "PS 125", "POINT (-73.95609685370634 40.81078944886271)", "NY", "10027", "1", "Y", "1059526", "1019640012" ]
+, [ "row-aie9.cckk_3zsx", "00000000-0000-0000-C6F6-721DE6233DAB", 0, 1507752756, null, 1507752756, null, "{ }", "122 Amsterdam Avenue", "New York", "Martin Luther King Jr. HS", "POINT (-73.98563038662456 40.774899959763246)", "NY", "10023", "1", "N", "1030343", "1011570025" ]
+, [ "row-nyb2_h6pt~xtzq", "00000000-0000-0000-1DEB-ABAE97390079", 0, 1507752756, null, 1507752756, null, "{ }", "233 E 56 Street", "New York", "Midtown East Campus (PS 59)", "POINT (-73.9663563303682 40.75929963022644)", "NY", "10022", "1", "Y", "1038593", "1013300015" ]
+, [ "row-k4gi.ia9t~5brx", "00000000-0000-0000-7CEF-63623208774F", 0, 1507752756, null, 1507752756, null, "{ }", "100 Hester Street", "New York", "IS 131", "POINT (-73.99360201070182 40.71623837083559)", "NY", "10002", "1", "N", "1082489", "1003010003" ]
+, [ "row-zegk-uuff.g32h", "00000000-0000-0000-1D3E-91A37B58DB34", 0, 1507752756, null, 1507752756, null, "{ }", "222 W 134 Street", "New York", "PS 92", "POINT (-73.94581431348983 40.8147115976589)", "NY", "10030", "1", "N", "1058808", "1019390011" ]
+, [ "row-3fcz-6z6h.6xbb", "00000000-0000-0000-F10C-BB7176D5599B", 0, 1507752756, null, 1507752756, null, "{ }", "501-503 W 152 Street", "New York", "PS - IS 210", "POINT (-73.9446461562353 40.82999707805981)", "NY", "10031", "1", "N", "1087824", "1020840129" ]
+, [ "row-s2z3_yymj-3qk3", "00000000-0000-0000-4647-6CBE3A8D16F6", 0, 1507752756, null, 1507752756, null, "{ }", "142-30 Barclay Avenue", "Flushing", "PS 20", "POINT (-73.82402972837741 40.758453450203675)", "NY", "11355", "4", "N", "4114657", "4050470001" ]
+, [ "row-38q8-pgfy_gfxk", "00000000-0000-0000-B881-4C2E06AE0A2E", 0, 1507752756, null, 1507752756, null, "{ }", "72-24 Grand Avenue", "Maspeth", "PS 58", "POINT (-73.89006273089697 40.728696727390556)", "NY", "11378", "4", "Y", "4062851", "4028020001" ]
+, [ "row-jp7x.fufu.3scu", "00000000-0000-0000-4380-21F9428EF945", 0, 1507752756, null, 1507752756, null, "{ }", "61-15 Oceania Street", "Bayside", "IS 74", "POINT (-73.76682865353507 40.745078241808976)", "NY", "11362", "4", "N", "4163953", "4077230001" ]
+, [ "row-rrdf~5pcp-583d", "00000000-0000-0000-812B-4A4D1705081C", 0, 1507752756, null, 1507752756, null, "{ }", "35-12 35Th Avenue", "Long Island City", "Frank Sinatra HS", "POINT (-73.92516451426961 40.75612679344865)", "NY", "11101", "4", "N", "4009594", "4006390016" ]
+, [ "row-h6xd~k66t-vwm7", "00000000-0000-0000-BCAA-2D0137AE5979", 0, 1507752756, null, 1507752756, null, "{ }", "2225 Webster Avenue", "Bronx", "IS 391", "POINT (-73.89722928081869 40.854433752750495)", "NY", "10457", "2", "Y", "2013307", "2031430043" ]
+, [ "row-yvvc.74ag~dtge", "00000000-0000-0000-0028-17047553062A", 0, 1507752756, null, 1507752756, null, "{ }", "1245 Washington Avenue", "Bronx", "PS 132", "POINT (-73.90699064822998 40.831893585490285)", "NY", "10456", "2", "N", "2001619", "2023900001" ]
+, [ "row-r4h4_epmt.9wh8", "00000000-0000-0000-EDD4-A9AEB1822995", 0, 1507752756, null, 1507752756, null, "{ }", "858 Jamaica Avenue", "Brooklyn", "PS 7", "POINT (-73.8731565648259 40.68917494755177)", "NY", "11208", "3", "N", "3090998", "3041060039" ]
+, [ "row-rjpp~mbmi-swt4", "00000000-0000-0000-02AC-23E85749AB2E", 0, 1507752756, null, 1507752756, null, "{ }", "283 Adams Street", "Brooklyn", "Adams Street Educational Campus", "POINT (-73.98834759450574 40.69463226130131)", "NY", "11201", "3", "N", "3331741", "3001400010" ]
+, [ "row-qzw3~n9fa.td7e", "00000000-0000-0000-42C4-1C7B41264E72", 0, 1507752756, null, 1507752756, null, "{ }", "790 East New York Avenue", "Brooklyn", "IS 391", "POINT (-73.93644096788611 40.66206795359305)", "NY", "11203", "3", "N", "3107129", "3048060001" ]
+, [ "row-ukxf_mhis_4wkh", "00000000-0000-0000-BF8F-17FC99EF96E2", 0, 1507752756, null, 1507752756, null, "{ }", "100 Noll Street", "Brooklyn", "PS 145", "POINT (-73.93228484422491 40.701455732544524)", "NY", "11206", "3", "N", "3071915", "3031530011" ]
+, [ "row-jad5-5ws2.ziay", "00000000-0000-0000-7500-3BFBE10531AD", 0, 1507752756, null, 1507752756, null, "{ }", "800 Gates Avenue", "Brooklyn", "IS 324", "POINT (-73.93237354807005 40.68793814772119)", "NY", "11221", "3", "N", "3044657", "3016360001" ]
+, [ "row-cd2g_w897.hdzz", "00000000-0000-0000-3242-FDF63D826506", 0, 1507752756, null, 1507752756, null, "{ }", "2021 Bergen Street", "Brooklyn", "IS 55", "POINT (-73.9132600390299 40.67449093632245)", "NY", "11233", "3", "N", "3038939", "3014480001" ]
+, [ "row-4r44~kt6d_q3qi", "00000000-0000-0000-1BA8-1CD1584911B3", 0, 1507752756, null, 1507752756, null, "{ }", "6500 16 Avenue", "Brooklyn", "IS 227", "POINT (-73.99578336323263 40.62178403159182)", "NY", "11204", "3", "N", "3133741", "3055510018" ]
+, [ "row-whyk.uncb_ms3d", "00000000-0000-0000-152A-7C906EFB2AA6", 0, 1507752756, null, 1507752756, null, "{ }", "6006 23 Avenue", "Brooklyn", "PS 226", "POINT (-73.97720245197735 40.615246661358086)", "NY", "11204", "3", "N", "3172071", "3065490024" ]
+, [ "row-xmgs-as43-u47k", "00000000-0000-0000-2F9E-A59CBEAE4762", 0, 1507752756, null, 1507752756, null, "{ }", "655 Parkside Avenue", "Brooklyn", "IS 2", "POINT (-73.95147508866324 40.65641422300907)", "NY", "11226", "3", "N", "3378201", "3050500066" ]
+, [ "row-9qew-sbzm_myjr", "00000000-0000-0000-237B-99F1D816016A", 0, 1507752756, null, 1507752756, null, "{ }", "40-20 100 Street", "Corona", "PS 207", "POINT (-73.86582315889937 40.74931524379376)", "NY", "11368", "4", "N", "4040271", "4016080058" ]
+, [ "row-gng3~v8k6_gaze", "00000000-0000-0000-C5BC-F2C1BE51E964", 0, 1507752756, null, 1507752756, null, "{ }", "100 Essex Drive", "Staten Island", "Jerome Parker Campus", "POINT (-74.15897931892695 40.581388990509105)", "NY", "10314", "5", "Y", "5149609", "5024500320" ]
+, [ "row-fccz_ret9_y3ad", "00000000-0000-0000-2D14-C19C8B16CA53", 0, 1507752756, null, 1507752756, null, "{ }", "921 E 228 Street", "Bronx", "IS - HS 362", "POINT (-73.85266908917056 40.888220095065755)", "NY", "10466", "2", "Y", "2064589", "2048640035" ]
+, [ "row-zg25-7zew~nsuw", "00000000-0000-0000-D691-4D5F588D9515", 0, 1507752756, null, 1507752756, null, "{ }", "7002 4 Avenue", "Brooklyn", "PS - IS 30", "POINT (-74.02453258829522 40.63345140169942)", "NY", "11209", "3", "Y", "3146550", "3058910048" ]
+, [ "row-xi7z_qcjy~53ve", "00000000-0000-0000-F3CF-B40A24D0AA5F", 0, 1507752756, null, 1507752756, null, "{ }", "10 E 15 Street", "New York", "Clinton School", "POINT (-73.99235077956067 40.736110371584786)", "NY", "10003", "1", "N", "1016067", "1008420034" ]
+, [ "row-ybe4.xuvc~futd", "00000000-0000-0000-527D-AA4BA1BF12E5", 0, 1507752756, null, 1507752756, null, "{ }", "715 Ocean Terrace", "Staten Island", "Petrides Complex", "POINT (-74.10434506993518 40.60899601014512)", "NY", "10301", "5", "N", "5017080", "5006830302" ]
+, [ "row-jkic~au3q.w465", "00000000-0000-0000-B9C3-51477108C115", 0, 1507752756, null, 1507752756, null, "{ }", "40 West Tremont Avenue", "Bronx", "PS 306", "POINT (-73.91076904016273 40.85138734697534)", "NY", "10453", "2", "N", "2098721", "2028620014" ]
+, [ "row-jkwy-e27t.bhen", "00000000-0000-0000-2E0F-432D31352713", 0, 1507752756, null, 1507752756, null, "{ }", "20 Houston Street", "Staten Island", "IS 51", "POINT (-74.1448917169114 40.623017156185085)", "NY", "10302", "5", "N", "5107210", "5014780500" ]
+, [ "row-k76i~2z9r-n3wx", "00000000-0000-0000-E0B9-855C4FBEEB19", 0, 1507752756, null, 1507752756, null, "{ }", "1220 Gerard Avenue", "Bronx", "PS - IS 218", "POINT (-73.919664554437 40.83549265459259)", "NY", "10452", "2", "Y", "2097130", "2024800008" ]
+, [ "row-zira_r982~fzrh", "00000000-0000-0000-A9EE-3D136A7A5DF1", 0, 1507752756, null, 1507752756, null, "{ }", "160-05 Highland Avenue", "Jamaica", "Hillcrest HS", "POINT (-73.80266512114586 40.70965641897956)", "NY", "11432", "4", "N", "4448767", "4097740001" ]
+, [ "row-nrz8~euzd_zbyb", "00000000-0000-0000-AFB4-3BC5260F720F", 0, 1507752756, null, 1507752756, null, "{ }", "45-30 36 Street", "Long Island City", "Aviation HS", "POINT (-73.92945375815141 40.74349499260163)", "NY", "11101", "4", "N", "4436685", "4002260001" ]
+, [ "row-e5c5.kesj~gqpj", "00000000-0000-0000-4E11-48EFFF4FEC2B", 0, 1507752756, null, 1507752756, null, "{ }", "21-27 Himrod Street", "Ridgewood", "Grover Cleveland HS", "POINT (-73.90963486079305 40.71126606472361)", "NY", "11385", "4", "N", "4080227", "4033630001" ]
+, [ "row-x5p7.r7mn_k5fk", "00000000-0000-0000-E88F-560C74B0BFE5", 0, 1507752756, null, 1507752756, null, "{ }", "67-01 110 Street", "Forest Hills", "Forest Hills HS", "POINT (-73.84476052923438 40.72978179399705)", "NY", "11375", "4", "N", "4052143", "4021890002" ]
+, [ "row-z43t.fc9p~ycqv", "00000000-0000-0000-8C79-C69815E496DA", 0, 1507752756, null, 1507752756, null, "{ }", "244 E 163 Street", "Bronx", "HS of Law, Gov't and Justice", "POINT (-73.91902100546525 40.82747699295518)", "NY", "10451", "2", "Y", "2109459", "2024450006" ]
+, [ "row-5epx~3xu7_fjr5", "00000000-0000-0000-EDBA-F627AC0C657E", 0, 1507752756, null, 1507752756, null, "{ }", "149-11 Melbourne Avenue", "Flushing", "Townsend Harris HS", "POINT (-73.821357047386 40.73497558794615)", "NY", "11367", "4", "Y", "4538714", "4065070200" ]
+, [ "row-jupk.kmt5~wus5", "00000000-0000-0000-773F-D37F580FEE9D", 0, 1507752756, null, 1507752756, null, "{ }", "92-07 175 Street", "Jamaica", "PS - IS 268", "POINT (-73.78520179472864 40.7076654262842)", "NY", "11433", "4", "Y", "4217573", "4102150001" ]
+, [ "row-v28f-74rk_x3j5", "00000000-0000-0000-ACD2-118EA943FEB1", 0, 1507752756, null, 1507752756, null, "{ }", "33-34 80 Street", "Jackson Heights", "IS 145", "POINT (-73.88742394122187 40.754262411740015)", "NY", "11372", "4", "N", "4442764", "4012520001" ]
+, [ "row-r7cb-6qe9-v7nd", "00000000-0000-0000-EB17-51D5A92A546A", 0, 1507752756, null, 1507752756, null, "{ }", "34-65 192 Street", "Flushing", "IS 25", "POINT (-73.78970200437473 40.764987261857435)", "NY", "11355", "4", "N", "4119139", "4052610001" ]
+, [ "row-2emd.sk44~84qu", "00000000-0000-0000-3B5D-1F546D459095", 0, 1507752756, null, 1507752756, null, "{ }", "74-20 Commonwealth Blvd", "Bellerose", "HS of Teaching, Lib Arts and Sci", "POINT (-73.7288655611345 40.74445728670098)", "NY", "11426", "4", "Y", "4529899", "4078700072" ]
+, [ "row-p2w8~v433_h2em", "00000000-0000-0000-A0C3-5B5FD1A3C67E", 0, 1507752756, null, 1507752756, null, "{ }", "17-15 Weirfield Street", "Ridgewood", "PS 239", "POINT (-73.9041547375515 40.699182428130115)", "NY", "11385", "4", "Y", "4435561", "4035610001" ]
+, [ "row-wsty-9saw-rg9u", "00000000-0000-0000-496C-83D7306A1180", 0, 1507752756, null, 1507752756, null, "{ }", "111-11 118 Street", "South Ozone Park", "PS 100", "POINT (-73.82133980529291 40.679760456715826)", "NY", "11420", "4", "N", "4250416", "4116230001" ]
+, [ "row-gnng_yuke.aytv", "00000000-0000-0000-3C5C-8212EC04EDA6", 0, 1507752756, null, 1507752756, null, "{ }", "2780 Reservoir Avenue", "Bronx", "Walton HS", "POINT (-73.89704424213798 40.86993370687484)", "NY", "10468", "2", "N", "2015241", "2032470070" ]
+, [ "row-5vbk_s8xm~ia6f", "00000000-0000-0000-AB8B-1709901795C0", 0, 1507752756, null, 1507752756, null, "{ }", "800 Home Street", "Bronx", "IS 158", "POINT (-73.90087575096457 40.82733480011778)", "NY", "10456", "2", "N", "2004868", "2026710011" ]
+, [ "row-nz4j_m37p_gsch", "00000000-0000-0000-D6F7-670C68DAC307", 0, 1507752756, null, 1507752756, null, "{ }", "250 Kramer Avenue", "Staten Island", "PS 56", "POINT (-74.21396005256327 40.54198980345471)", "NY", "10309", "5", "Y", "5128148", "5070440001" ]
+, [ "row-6cqz~qf2y_nhhv", "00000000-0000-0000-B7C1-743B2BBD4418", 0, 1507752756, null, 1507752756, null, "{ }", "290 St Marks Place", "Staten Island", "Ralph McKee HS", "POINT (-74.07901917090253 40.64282884762186)", "NY", "10301", "5", "N", "5000314", "5000190004" ]
+ ]
+}

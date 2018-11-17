@@ -18,9 +18,21 @@ class SearchBar extends Component {
    }
 
   handleSubmit(event) {
-    alert('A name was submitted: ' + this.state.value);
-    console.log("Inside Function");
-    event.preventDefault();
+
+    const userData = {
+          ZipInput: event.target.ZipInput.value
+      };
+      console.log(userData);
+
+      fetch('http://localhost:8080/zipInput', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify(userData)
+      });
+
+      this.setState({value: ''});
+
+      event.preventDefault();
   }
 
   render() {
