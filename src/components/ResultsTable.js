@@ -1,11 +1,10 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
 import { Table } from 'reactstrap';
 import React, { Component } from 'react';
 
 class ResultsTable extends Component {
     render() {
       return (
-  
+
         <Table>
             <thead>
               <tr>
@@ -36,10 +35,10 @@ class ResultsTable extends Component {
               </tr>
             </tbody>
           </Table>
-  
+
       );
-  
+
     }
   }
-  
+
   export default ResultsTable;

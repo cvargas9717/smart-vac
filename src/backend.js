@@ -35,10 +35,6 @@ app.post('/zipInput', (req, res) => {
   var zip = req.body.ZipInput;
 
   var data = zipdb[zip];
-  console.log(data);
-  res.send(data);
-
-  console.log(data[0].the_geom + "<<<<<<<<<<<<<<<<")
 
   var myString = data[0].the_geom;
   var myRegexp = /\(([-\d\.]+)\s([-\d\.]+)\)/g;
@@ -46,8 +42,23 @@ app.post('/zipInput', (req, res) => {
   console.log(match[1]);
   console.log(match[2]);
 
+  res.send({
+      long : match[1],
+      lat : match[2]
+    });
 
 });
+
+// app.get('/zipInput', (req, res) => {
+//   var zip = req.body.ZipInput;
+//
+//   res.send({
+//       long : match[1],
+//       lat : match[2]
+//     });
+//
+// });
+
 
 
 models.sequelize.sync({ force: false })

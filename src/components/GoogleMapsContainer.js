@@ -1,10 +1,8 @@
 import { GoogleApiWrapper, InfoWindow, Map, Marker } from 'google-maps-react';
-import {withGoogleMap, GoogleMap} from 'react-google-maps';
-import Maps from './Maps.js';
-import React, {Component} from 'react';
+import React from 'react';
 import Paper from '@material-ui/core/Paper';
 import Typography from '@material-ui/core/Typography';
-import { typography } from '@material-ui/core/styles';
+
 
 
 class GoogleMapsContainer extends React.Component {
@@ -44,7 +42,7 @@ render() {
     return (
       <Map
         xs = { 12 }
-        style = { "color: black;" }
+        style = { this.state.style }
         google = { this.props.google }
         onClick = { this.onMapClick }
         zoom = { 10 }

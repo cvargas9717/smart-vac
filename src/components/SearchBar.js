@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Form, FormGroup, Label, Input, FormText } from 'reactstrap';
+import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
 
 class SearchBar extends Component {
 
@@ -28,6 +28,9 @@ class SearchBar extends Component {
         method: 'POST',
         headers: {'Content-Type':'application/json'},
         body: JSON.stringify(userData)
+      }).then(function(response){
+        console.log(JSON.stringify(response));
+        console.log(response);
       });
 
       this.setState({value: ''});
@@ -37,7 +40,7 @@ class SearchBar extends Component {
 
   render() {
     return (
-      
+
         <Form onSubmit={this.handleSubmit}>
           <FormGroup>
             <div className='searchBarContainer'>
@@ -46,9 +49,9 @@ class SearchBar extends Component {
               <Button className='submitButton' >Submit</Button>
             </div>
           </FormGroup>
-          
+
         </Form>
-     
+
     );
 
   }
