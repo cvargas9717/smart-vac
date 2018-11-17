@@ -5,6 +5,7 @@ import './App.css';
 import SearchBar from './components/SearchBar.js';
 import ResultsTable from './components/ResultsTable.js';
 import Maps from './components/Maps.js';
+import Marker from './components/Marker.js';
 
 class App extends Component {
   render() {
@@ -15,6 +16,7 @@ class App extends Component {
           <SearchBar />
           <ResultsTable />
           <Maps />
+        
         </div>
       </div>
     );
