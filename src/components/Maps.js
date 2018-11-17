@@ -22,8 +22,8 @@ class Maps extends Component {
     return (
       <div>
         <GoogleMapExample
-          containerElement={  <div style={{height:`500px`, width:
-          '500px'}}/>}
+          containerElement={  <div style={{height:`340px`, width:
+          '340px'}}/>}
           mapElement={  <div style={{height:`100%`}}  />}
         />
 
