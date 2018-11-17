@@ -18,6 +18,21 @@
   color: white;
 }
 
+.searchBarContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  justify-content: center; 
+  min-width: 40vw;
+}
+
+.submitButton {
+  margin: 8px;
+}
+
+.mainTitle {
+  font-size: 5rem;
+}
 
 .App-link {
   color: #61dafb;

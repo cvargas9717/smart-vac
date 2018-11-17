@@ -25,14 +25,18 @@ class SearchBar extends Component {
 
   render() {
     return (
-      <Form onSubmit={this.handleSubmit}>
-        <FormGroup>
-          <Label for="exampleEmail">Enter Zip Code: </Label>
-          <Input type="text" name="ZipInput" id="Zip" value={this.state.value} onChange={this.handleChange} />
-        </FormGroup>
-        <Button >Submit</Button>
-      </Form>
-
+      
+        <Form onSubmit={this.handleSubmit}>
+          <FormGroup>
+            <div className='searchBarContainer'>
+              <Label for="exampleEmail">Enter Zip Code: </Label>
+              <Input type="text" name="ZipInput" id="Zip" value={this.state.value} onChange={this.handleChange} />
+              <Button className='submitButton' >Submit</Button>
+            </div>
+          </FormGroup>
+          
+        </Form>
+     
     );
 
   }
