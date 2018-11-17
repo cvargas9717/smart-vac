@@ -1,5 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Table } from 'reactstrap';
+import React, { Component } from 'react';
 
 class ResultsTable extends Component {
     render() {
